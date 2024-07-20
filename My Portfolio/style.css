@@ -1,0 +1,267 @@
+#body {
+    /* background-image: url("pfp2.gif"); */
+    background-image:linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8)), url(bgmy.jpg);
+    background-position: relative;
+    background-size: cover;
+    background-repeat: repeat-y;
+
+    /* background-color: rgb(25, 1, 48); */
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(35, 1, 66);
+}
+
+#nav_ul {
+    display: flex;
+    justify-content: center;
+}
+
+#li {
+    display: flex;
+    list-style: none;
+    margin: 0 25px;
+}
+
+#li a {
+    text-decoration: none;
+    color: white;
+}
+
+#li a:hover {
+    color: #ff7f50;
+    transition: 0.3s;
+    font-size: 1.01rem;
+}
+
+#myimg {
+    height: 10px;
+}
+
+#left {
+    font-size: 1.5rem;
+}
+
+#left:hover {
+    color: #ff7f50;
+    transition: 0.5s;
+}
+
+#first {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10 0px 0;
+}
+
+.first>div {
+    /*for giving margin between left and right sections*/
+    width: 30%;
+}
+
+#left_section {
+    background-color: none;
+    font-size: 2.5rem;
+
+}
+
+.orange{
+    color:#ff7f50;
+}
+
+#element{
+    color:#ff7f50;
+}
+
+#right_section {
+    background-color: none;
+    margin: 30px 0;
+
+    /* width: 50px;
+    height: 50%; */
+}
+
+#img {
+    padding-right: 100px;
+    width: 100%;
+    margin: 30px 0;
+    background-repeat: no-repeat;
+}
+
+/* #left_section span {
+    position: relative;
+
+}
+
+#left_section span::before {
+    content: "Undergrad";
+    color: #ff7f50;
+    animation: words 20s infinite;
+
+}
+
+#left_section span::after {
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    background-color: none;
+    border-left: 2px solid #ff7f50;
+    right: -8px;
+    animation: cursor .9s infinite, typing 20s steps(14) infinite;
+
+}
+
+@keyframes cursor {
+    to {
+        border-left: 2px solid rgb(94, 16, 3);
+    }
+}
+
+@keyframes words {
+
+    0%,
+    20% {
+        content: "Engineer";
+    }
+
+    21%,
+    40% {
+        content: "Frontend Guy";
+    }
+
+    41%,
+    60% {
+        content: "Athelete";
+    }
+
+    61%,
+    80% {
+        content: "Youtuber";
+    }
+
+    81%,
+    100% {
+        content: "Video Editor";
+    }
+}
+
+@keyframes typing {
+
+    10%,
+    15%,
+    30%,
+    35%,
+    50%,
+    55%,
+    70%,
+    75%,
+    90%,
+    95% {
+        width: 0;
+    }
+
+    5%,
+    20%,
+    25%,
+    40%,
+    45%,
+    60%,
+    65%,
+    80%,
+    85% {
+        width: calc(100% + 8px);
+    }
+} */
+
+.second {
+    max-width: 80vw;
+    margin: auto;
+    font-size: 30px;
+    font-weight: 600;
+    height: 80vh;
+}
+
+#hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+    font-size: 1.5rem;
+}
+
+.second h1 {
+    font-size: 2.10rem;
+}
+
+.textgray {
+    color: grey;
+    height: 0px 0;
+}
+
+#box {
+    background: white;
+    width: 75vw;
+    height: 2px;
+    margin: 47px 0;
+    display: flex;
+}
+
+.second .vertical {
+    height: 100px;
+    width: 1.5px;
+    background-color: white;
+    margin: 0 210px;
+}
+
+.imgfir {
+    width: 30px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.vertitle {
+    position: relative;
+    top: 74px;
+    width: 145px;
+    font-size: 19px;
+}
+
+.verdesc {
+    position: relative;
+    top: 95px;
+    color: #e4dada;
+    width: 190px;
+    font-size: 11px;
+}
+
+footer{
+    background-color: rgb(45, 1, 88);
+    /* height: 220px; */
+}
+
+.footer{
+    display: flex;
+    padding: 25px 125px;
+    justify-content: space-evenly;
+
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer > div{
+    width: 123px;
+}
+
+#fright{
+    text-align: center;
+}
